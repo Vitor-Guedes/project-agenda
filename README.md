@@ -9,3 +9,4 @@ Segundo projeto do curso que estou fazendo para reforçar meu conhecimento com P
 * Uso do laradocker para subir apenas os containers Nginx e Mysql
 * Configuração do .config do Nginc para redirecionamento para public/index.php
 * Lógica própria para identificar o template que deve ser usado de acordo com a url.
+* Setup da tabela contact acessando /setup-db na url
