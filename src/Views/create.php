@@ -1,14 +1,16 @@
+<?= component('header') ?>
+
 <div class="container" >
-    <?php require_once('../templates/backbtn.php') ?>
+    <?php component('back-btn') ?>
     <h1 id="main-title">Criar Contato</h1>
-    <form id="create-form" action="<?= $BASE_URL ?>/process/create" method="post">
+    <form id="create-form" action="<?= getBaseUrl() ?>/store" method="post">
         <div class="form-group">
             <label for="name">Nome</label>
             <input class="form-control" type="text" name="name" id="name" placeholder="Nome do contato" required>
         </div>
         <div class="form-group">
             <label for="phone">Telephone</label>
-            <input class="form-control" type="text" name="phone" id="phone" placeholder="Teelefone do contato" required>
+            <input class="form-control" type="text" name="phone" id="phone" placeholder="Telefone do contato" required>
         </div>
         <div class="form-group">
             <label for="observations">Observações</label>
@@ -17,3 +19,5 @@
         <button class="btn btn-primary">Criar</button>
     </form>
 </div>
+
+<?= component('footer') ?>

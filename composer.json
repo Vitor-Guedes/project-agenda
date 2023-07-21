@@ -1,0 +1,27 @@
+{
+    "name": "guedes/agenda",
+    "description": "Implemetação mvc ao projeto de estudo",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Guedes\\Agenda\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vitor Guedes",
+            "email": "vtrf2.0@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guedes/router": "1.0.2"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url" : "https://github.com/Vitor-Guedes/guedes-router.git"
+        }
+    ]
+}
